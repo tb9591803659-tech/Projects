@@ -21,7 +21,7 @@ def history_add(expression) :
 #Now a terminal interface
 print("CALCULATER\n")
 while True :
-   print("1.Calculate\n2.View History\n3.Exit")
+   print("1.Calculate\n2.View History\n3.Exit\n4.Delete History")
    option = int(input("Enter any option: "))
    if option == 1:
       exp = str(input("Enter Expression: "))
@@ -62,6 +62,9 @@ while True :
    elif option == 3:
       print("Exiting Calculater...\nExited Calculater.")
       break
+
+   elif option == 4:
+      pass #Has to be done and also time stamp should be added and then scientific calculation parsing system should be added
 
    else :
       print("Invalid option...\nTry again.")
