@@ -1,4 +1,4 @@
-#Smart calculater interface as terminal runs in loop
+#Smart calculater interface as terminal runs in loop 
 import os
 from colorama import Fore, Back, Style, init
 
@@ -24,7 +24,7 @@ def history_add(expression) :
 #Now a terminal interface
 print("CALCULATER\n")
 while True :
-   print(Fore.YELLOW + "[1]" + "Calculate") #\n2.View History\n3.Exit\n4.Delete History")
+   print(Fore.YELLOW + "[1]" + "Calculate")
    print(Fore.YELLOW + "[2]" + "View History")
    print(Fore.YELLOW + "[3]" + "Exit")
    print(Fore.YELLOW + "[4]" + "Delete History")
@@ -78,3 +78,7 @@ while True :
       
    except Exception as e :
       print(e)
+
+      #Remaining :
+      #1.Scientific Calculations
+      #2.Hsitory Deletion
