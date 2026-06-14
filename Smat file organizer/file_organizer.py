@@ -17,7 +17,7 @@ def file_detector(extension) :
     "3D Models": [".obj", ".stl", ".fbx"]
     }
 
-    for category,extensions in EXTENSION_MAP :
+    for category,extensions in EXTENSION_MAP.items() :
         if extension in extensions :
             return category
     
